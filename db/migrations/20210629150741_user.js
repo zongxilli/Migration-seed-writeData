@@ -2,7 +2,7 @@
 exports.up = function(knex) {
   return knex.schema.createTable('user', table=> {
 
-    // Auto increment id
+    // Auto increment id (it will work without putting id inside)
     table.increments('id');
 
     // Email must be not null and unique
