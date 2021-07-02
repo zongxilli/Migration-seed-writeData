@@ -1,0 +1,24 @@
+{
+	"name": "knex-to-postgreSQL",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"migrate": "npx knex migrate:latest --knexfile db/knexfile.js",
+		"rollback": "npx knex migrate:rollback --knexfile db/knexfile.js",
+		"seedrun": "npx knex seed:run --knexfile db/knexfile.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"knex": "^0.95.6",
+		"pg": "^8.6.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.8"
+	}
+}
