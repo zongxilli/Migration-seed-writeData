@@ -1,5 +1,5 @@
 # database migration + seed + write data into database
-#  (Knex - Express - PostgreSQL)
+#  (Nodejs + Express + Knex + PostgreSQL)
 
 ### `npm run migrate`
 Start migrations
