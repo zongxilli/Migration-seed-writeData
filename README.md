@@ -1,3 +1,18 @@
-# Check package.json for scripts
+# database migration + seed + write data into database
+#  (Knex + Express + PostgreSQL)
 
-# knex + express -> postgresSQL
+### `npm run migrate`
+Start migrations
+
+### `npm run rollback`
+Start rollbacks
+
+### `npm run seedrun`
+Start inserting seeds
+
+### `npm run dev`
+Start backend server
+
+
+
+
